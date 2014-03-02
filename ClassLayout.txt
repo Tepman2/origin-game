@@ -3,42 +3,44 @@ Server
 	GameLogic package
 		GameMap class
 		GameLevel class
-		
+
 		Character class
 		CharacterOption class
  		MapOption class
-	
+
 	File I/O package
-		
+
 		FileReader class
 		FileParser class
 		FIleWriter class
 		GameSaver class
-	
+
 	Networking package
-	
+
 		GameConnection class
 		ConnectionController class
-		
+
 	GameController package
 		GameMain
-		
+
 	Threading package
-		
-		
-Client 
-	
+                ConnectionThread class
+                ListeningThread class
+
+
+Client
+
 	GameLogic package
 		**same as server**
-		
+
 	ClientNetworking package
 		GameConnection class
 		ConnectionController class
-		
+
 	GameDisplay package
 		TextOutputGenerator class
 		TextInputReader class
 		ArtOutputHandler class
-		
+
 	ClientGameController package
 		ClientMain class
