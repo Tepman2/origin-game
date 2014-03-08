@@ -1,46 +1,47 @@
 Server
 
-	GameLogic package
-		GameMap class
-		GameLevel class
+    GameLogic package
+	GameMap class
+	GameLevel class
 
-		Character class
-		CharacterOption class
- 		MapOption class
+	Character class
+	CharacterOption class
+ 	MapOption class
 
-	File I/O package
+    File I/O package
 
-		FileReader class
-		FileParser class
-		FIleWriter class
-		GameSaver class
+	FileReader class
+	FileParser class
+	FileWriter class
+	GameSaver class
 
-	Networking package
+    Networking package
 
-		GameConnection class
-		ConnectionController class
+	GameConnection class
+	ConnectionController class
 
-	GameController package
-		GameMain
+    GameController package
+	GameMain
 
-	Threading package
-                ConnectionThread class
-                ListeningThread class
+    Threading package
+        ThreadGroup class
+        ThreadSingle class
+        Mutex class
 
 
 Client
 
-	GameLogic package
-		**same as server**
+    GameLogic package
+	**same as server**
 
-	ClientNetworking package
-		GameConnection class
-		ConnectionController class
+    ClientNetworking package
+	GameConnection class
+	ConnectionController class
 
-	GameDisplay package
-		TextOutputGenerator class
-		TextInputReader class
-		ArtOutputHandler class
+    GameDisplay package
+	TextOutputGenerator class
+	TextInputReader class
+	ArtOutputHandler class
 
-	ClientGameController package
-		ClientMain class
+    ClientGameController package
+	ClientMain class

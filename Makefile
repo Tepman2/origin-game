@@ -3,10 +3,11 @@
 CFLAGS    =-Wall -g
 INCLUDES  =-Ithreads
 #The libraries, includes the boost system and boost threading libs
-LIBRARIES =-lboost_thread -lboost_system
+LIBRARIES =
 CC        =g++
 # Add to this if more .c files are necessary
-SOURCES     = threads/thread.cpp
+SOURCES     = threads/ThreadSingle.c \
+	      threads/ThreadGroup.c
 #TESTSOURCES =
 
 all:
